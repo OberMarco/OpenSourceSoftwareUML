@@ -11,15 +11,14 @@ In scientific projects, the project budget is usually small. For this reason, ex
 	
 Based on the creation of 1-2 UML diagrams, differences, advantages and disadvantages of open source solutions for UML diagrams will be worked out.
 The created UML diagram will continue to be used in the research work of the Masters of applied Research. 
-The focus of the diagrams lies in the abstract and clear representation of software and software designs.
+The focus of the diagrams is on the abstract and clear representation of software and software designs. The diagrams are intended to be used in a scientific context for publications and collaboration. The use of the diagrams is to be distinguished from UML diagrams, which are a detailed view of the implementation of the software.
 	
 ## Software products
 	
 In this project, the following open source software are investigated and compared:
 - [PlantUML](https://plantuml.com/de/)
 - [Integrated Latex UML - TikZ-UML](https://perso.ensta-paris.fr/~kielbasi/tikzuml/index.php)
-- [Modelio](https://www.modelio.org/)
-- ...?
+- [Draw.io App - UML](https://drawio-app.com/uml-diagrams/)
 	
 	
 ## Investigation criteria
@@ -27,7 +26,7 @@ In this project, the following open source software are investigated and compare
 - Time required for creation
 - Time required for modification
 - General visual impression
-- platform independence
-- ... ? 
+- Platform independence
+- Scalability in diagram size
 
 	
