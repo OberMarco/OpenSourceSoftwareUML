@@ -1,0 +1,154 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Beamer-Präsentationsvorlage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[xcolor=dvipsnames]{beamer}
+
+
+%\usepackage{xcolor}
+\usetheme{default}
+% deutsche Silbentrennung
+\usepackage[ngerman]{babel}
+% Deutsche Umlaute
+\usepackage[utf8]{inputenc}
+% Einbinden von Bildern
+\usepackage{graphicx}
+% Unterstützung von Hyperlinks
+\usepackage{hyperref}
+
+% Mathematische Pakete
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{latexsym}
+\usepackage{colortbl}
+\usepackage{listings}
+
+% Abweichung von Vorlage
+% um Graphen zu plotten
+\usepackage{tikz}
+\usetikzlibrary{shapes, arrows, automata, chains, positioning, shadows, matrix}
+
+
+
+\usepackage{tikzscale}
+\usepackage{tikz-uml}\usepackage{tabularx}
+
+
+\makeatletter
+\newcommand{\trickbeamer}{%
+	\advance\beamer@slideinframe by-1%
+}%
+\makeatother
+
+
+
+\def \variableXYZ{Ueberschrift1}
+\def \variableXYZ{Ueberschrift1}
+\newcommand{\neueFolie}[1]{\frametitle{#1}\section{#1}}
+
+
+\definecolor{rgray}{rgb}{0.95,0.95,0.95}
+\definecolor{darkgreen}{rgb}{0.0,0.5,0.0}
+\lstset{
+	language=[LaTeX]TeX, 
+	captionpos=b, 
+	frame=lines, 
+	basicstyle=\ttfamily, 
+	keywordstyle=\color{blue}, 
+	commentstyle=\color{darkgreen}, 
+	stringstyle=\color{red}, 
+	%numbers=left, 
+	%numberstyle=\tiny, 
+	%numbersep=5pt,
+	breaklines=true, 
+	showstringspaces=false, 
+	emph={double,bool,int,unsigned,char,true,false,void},
+	emphstyle=\color{blue},
+	emph={Assert,Test},
+	emphstyle=\color{red},
+	emph={[2]\using,\#define,\#ifdef,\#endif}, 
+	emphstyle={[2]\color{blue}},
+	backgroundcolor=\color{rgray}
+}
+
+\input{Gestaltung/gestaltung_oth}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Hier werden die Daten für die erste Folie eingetragen
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{ UML Tools}
+\subtitle{Open-Source Software for the Working Scientist \\}
+\institute{Master of Applied Research\\ Hochschule Ansbach\\}
+\author{Marco Obermeier}
+\date{\today}
+%\date{12. Januar 2022}
+
+\begin{document} 
+	\begin{frame}
+		\frametitle{~}
+		\maketitle 
+	\end{frame}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	%Einleitung
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	%\begin{frame}
+	%	\frametitle{Inhaltsverzeichnis}
+	%	\tableofcontents
+	%\end{frame}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	%Einleitung
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Übersicht und Entwurf}
+	\begin{columns}
+		\begin{column}{0.70\textwidth}
+			\begin{minipage}{1.0\textwidth}	
+				\resizebox{\columnwidth}{!}{%
+					\begin{tikzpicture}
+						
+					
+						\umlbasiccomponent[x=0, y=0, fill=yellow!20]{MySQL} 
+						\umlbasiccomponent[x=4, y=0,fill=yellow!20]{Sauter Vision Center}
+						\umlbasiccomponent[x=8.5, y=0,fill=yellow!20]{Wetterstation}
+						\umlbasiccomponent[x=12, y=0,fill=yellow!20]{Sensorik}
+						\umlbasiccomponent[x=6.5, y=-4, fill=cyan!20]{Datenkollektor} 
+	
+						%\umldatabase[x=5, y=-6, class=InfluxDB]{Zeitreihendatenbank}
+			
+						\umlHVassemblyconnector[interface=historische Daten, anchor1=180,  first arm=1.5cm]{Datenkollektor}{MySQL}
+						\umlVHVassemblyconnector[interface={Gebäudedaten}, anchor1=125, anchor2=-135]{Datenkollektor}{Sauter Vision Center}
+						\umlVHVassemblyconnector[interface={Wetterdaten}, anchor1=65, anchor2=-45]{Datenkollektor}{Wetterstation}
+						\umlHVassemblyconnector[interface=Leistungsdaten, anchor1=0,  first arm=1.5cm]{Datenkollektor}{Sensorik}
+						%\umlVHVassemblyconnector[interface=3D-Beschleunigung, anchor1=0,  first arm=3.5cm]{MySQL}{Datenkollektor}
+						%\umlassemblyconnector[interface=Winkelgeschwidigkeit, anchor1=0]{Flugsteuerung}{Gyrosensor}
+						%\umlHVHassemblyconnector[interface=PWM-Signal, anchor1=-62,  first arm=3.5cm]{Flugsteuerung}{Motoren}
+		
+						%\umlVHVassemblyconnector[interface=Lagewinkel]{Regelung}{Sensorauswertung} 
+						%\umlVHVassemblyconnector[interface=Motordrehzahl]{Motorsteuerung}{Regelung} 
+						
+						
+					\end{tikzpicture}
+				}
+			\end{minipage}
+		\end{column}
+		\begin{column}{0.30\textwidth}
+			\begin{block}{Kategeroien der Komponenten}
+				\begin{itemize}
+					\item blau$\equiv$ Hardware
+					\item gelb $\equiv$ Software
+					\item rot	$\equiv$ Echtzeit-kritisch
+				\end{itemize}
+				
+				
+			\end{block}
+		\end{column}
+	\end{columns}
+\end{frame}
+	
+	
+	
+	
+	
+	
+\end{document}
