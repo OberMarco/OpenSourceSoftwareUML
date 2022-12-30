@@ -113,13 +113,25 @@
 						\umlbasiccomponent[x=8.5, y=0,fill=yellow!20]{Wetterstation}
 						\umlbasiccomponent[x=12, y=0,fill=yellow!20]{Sensorik}
 						\umlbasiccomponent[x=6.5, y=-4, fill=cyan!20]{Datenkollektor} 
-	
-						%\umldatabase[x=5, y=-6, class=InfluxDB]{Zeitreihendatenbank}
+						\umlbasiccomponent[x=6.5, y=-8, fill=gray!20]{Zeitreihendatenbank}
+						\umlbasiccomponent[x=1.5, y=-12, fill=cyan!20]{Forecast}
+						\umlbasiccomponent[x=6.5, y=-12]{Visualisierung}
+						\umlbasiccomponent[x=12, y=-12, fill=cyan!20]{Optimierung}
 			
 						\umlHVassemblyconnector[interface=historische Daten, anchor1=180,  first arm=1.5cm]{Datenkollektor}{MySQL}
 						\umlVHVassemblyconnector[interface={Gebäudedaten}, anchor1=125, anchor2=-135]{Datenkollektor}{Sauter Vision Center}
 						\umlVHVassemblyconnector[interface={Wetterdaten}, anchor1=65, anchor2=-45]{Datenkollektor}{Wetterstation}
 						\umlHVassemblyconnector[interface=Leistungsdaten, anchor1=0,  first arm=1.5cm]{Datenkollektor}{Sensorik}
+						\umlVHVassemblyconnector[interface=Python API InfluxDB, anchor1=90]{Zeitreihendatenbank}{Datenkollektor}
+						\umlHVHassemblyconnector[interface=vorhergesagte Zeitreihen, anchor1=-160, anchor2 = 0]{Zeitreihendatenbank}{Forecast}
+						\umlVHassemblyconnector[interface=historische Zeitreihen, anchor1=125, anchor2 = -200]{Forecast}{Zeitreihendatenbank}Forecast
+						
+						\umlVHVassemblyconnector[interface=Aktuelle Tagesdaten, anchor1=-90]{Zeitreihendatenbank}{Visualisierung}
+						\umlHVHassemblyconnector[interface=Python API InfluxDB, anchor1=-20, anchor2= 180]{Zeitreihendatenbank}{Optimierung}
+						\umlVHassemblyconnector[interface={historische und vorhergesagte Zeitreihen}, anchor1=45, anchor2= 20, arm1=3cm]{Optimierung}{Zeitreihendatenbank}
+						
+						
+						
 						%\umlVHVassemblyconnector[interface=3D-Beschleunigung, anchor1=0,  first arm=3.5cm]{MySQL}{Datenkollektor}
 						%\umlassemblyconnector[interface=Winkelgeschwidigkeit, anchor1=0]{Flugsteuerung}{Gyrosensor}
 						%\umlHVHassemblyconnector[interface=PWM-Signal, anchor1=-62,  first arm=3.5cm]{Flugsteuerung}{Motoren}
