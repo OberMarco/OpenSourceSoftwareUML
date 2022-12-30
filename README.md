@@ -1,7 +1,7 @@
 # Project desciption of the course *Open-Source Software for the Working Scientist*
 *Author:* Marco Obermeier - Master Student of Applied Science at the [University of Applied Science Ansbach](https://www.hs-ansbach.de/en/home/) 
 ## Table of contents
-[Introduction](##Introduction)
+[Introduction](#introduction)
 
 
 ## Introduction
