@@ -3,9 +3,7 @@
 ## Table of contents
 [Introduction](#introduction)
 [Projectdescription](#Projectdescription)
-
 [Software products](#software-products)
-
 [Investigation criteria](#Investigation-criteria)
 
 
