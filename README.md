@@ -46,9 +46,17 @@ In this project, the following open source software are investigated and compare
 
 
 ## PlantUML
+Weboberfläche
+umständliche Installation
+keine Leerzeichen
+
 
 ## Integrated Latex UML - TikZ-UML
+kein Datenbanksymbol im komponentendiagramm
 
 ## Draw.io APP
+Weboberfläche
+VSStudio extension
+
 
 	

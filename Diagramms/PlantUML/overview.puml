@@ -1,0 +1,79 @@
+@startuml
+
+
+component MySQL #LightYellow{
+}
+
+component Sauter_Vision_Center #LightYellow{
+}
+
+component Wetterstation #LightYellow{
+}
+
+component Sensorik  #LightYellow {
+}
+
+
+component Datenkollektor #LightCyan {
+
+}
+
+
+    [Zeitreihendatenbank]
+
+
+[Zeitreihendatenbank] -up- Python_API_InfluxDB
+
+historische_Daten -up- MySQL
+Gebäudedaten -up- Sauter_Vision_Center
+Wetterdaten -up- Wetterstation
+Leistungsdaten -up- Sensorik
+
+historische_Daten -right- Datenkollektor
+Gebäudedaten -- Datenkollektor
+Wetterdaten -- Datenkollektor
+Leistungsdaten -left- Datenkollektor
+
+Python_API_InfluxDB -up- Datenkollektor
+
+
+component Forecast #LightCyan {
+
+}
+
+
+component Visualisierung #LightYellow {
+
+}
+
+
+component Optimierung #LightCyan {
+
+}
+
+Visualisierung -up- Aktuelle_Tagesdaten
+Optimierung -up- Fahrpläne_Gebäudesteuerung
+Forecast -up- vorhergesagte_Zeitreihen
+
+
+Aktuelle_Tagesdaten -up- Zeitreihendatenbank
+Fahrpläne_Gebäudesteuerung  -left- Zeitreihendatenbank
+vorhergesagte_Zeitreihen  -right- Zeitreihendatenbank
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@enduml
