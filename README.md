@@ -44,17 +44,25 @@ In this project, the following open source software are investigated and compare
 
 
 
+![](Diagramms/Hand/uml.png)
 
 ## PlantUML
+
+
+![](Diagramms/PlantUML/overview.png)
+
 Weboberfläche
 umständliche Installation
 keine Leerzeichen
 
 
 ## Integrated Latex UML - TikZ-UML
+
+![](Diagramms/Tikz-Latex-UML/uml.png)
 kein Datenbanksymbol im komponentendiagramm
 
 ## Draw.io APP
+![](Diagramms/DrawIO/uml.png)
 Weboberfläche
 VSStudio extension
 

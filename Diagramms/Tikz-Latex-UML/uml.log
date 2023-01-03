@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.11.25) (preloaded format=pdflatex 2022.12.1)  30 DEC 2022 17:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.11.25) (preloaded format=pdflatex 2022.12.1)  3 JAN 2023 17:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -774,16 +774,55 @@ default.sty
 )
 (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beameroutertheme
 default.sty)))
-(C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+(C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/qrcode\qrcode.sty
+Package: qrcode 2015/01/08 v1.51 QR code generation
+
+(C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks45
+\XKV@tempa@toks=\toks46
+)
+\XKV@depth=\count334
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\c@qr@i=\count335
+\c@qr@j=\count336
+\qr@a=\count337
+\qr@b=\count338
+\qr@c=\count339
+\qr@for@depth=\count340
+\qr@for@maxdepth=\count341
+\qr@for@start=\count342
+\qr@for@end=\count343
+\qr@for@step=\count344
+\qr@newforcount=\count345
+\qr@newforcount=\count346
+\qr@desiredheight=\skip64
+\qr@modulesize=\skip65
+\qr@minipagewidth=\skip66
+\c@maski=\count347
+\c@maskj=\count348
+\c@totalones=\count349
+\c@penaltyi=\count350
+\c@penaltyii=\count351
+\c@penaltyiii=\count352
+\c@penaltyiv=\count353
+\c@qr@hexchars=\count354
+\qr@newforcount=\count355
+\c@qr@divisionsremaining=\count356
+) (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2022/10/23 3.82 The Babel package
-\babel@savecnt=\count334
+\babel@savecnt=\count357
 \U@D=\dimen294
 \l@unhyphenated=\language79
 
 (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read3
 LaTeX Info: Redefining \textlatin on input line 4138.
-\bbl@dirlevel=\count335
+\bbl@dirlevel=\count358
 
 *************************************
 * Local config file bblopts.cfg used
@@ -810,8 +849,8 @@ Package babel Info: Importing font and identification data for ngerman
 )
 (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks45
-\inpenc@posthook=\toks46
+\inpenc@prehook=\toks47
+\inpenc@posthook=\toks48
 )
 (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/base\latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
@@ -827,33 +866,33 @@ Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
 \col@sep=\dimen295
 \ar@mcellbox=\box76
 \extrarowheight=\dimen296
-\NC@list=\toks47
-\extratabsurround=\skip64
-\backup@length=\skip65
+\NC@list=\toks49
+\extratabsurround=\skip67
+\backup@length=\skip68
 \ar@cellbox=\box77
 )
-\everycr=\toks48
-\minrowclearance=\skip66
-\rownum=\count336
+\everycr=\toks50
+\minrowclearance=\skip69
+\rownum=\count359
 )
 (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count337
+\lst@mode=\count360
 \lst@gtempboxa=\box78
-\lst@token=\toks49
-\lst@length=\count338
+\lst@token=\toks51
+\lst@length=\count361
 \lst@currlwidth=\dimen297
-\lst@column=\count339
-\lst@pos=\count340
+\lst@column=\count362
+\lst@pos=\count363
 \lst@lostspace=\dimen298
 \lst@width=\dimen299
-\lst@newlines=\count341
-\lst@lineno=\count342
+\lst@newlines=\count364
+\lst@lineno=\count365
 \lst@maxwidth=\dimen300
 
 (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count343
-\lst@skipnumbers=\count344
+\c@lstnumber=\count366
+\lst@skipnumbers=\count367
 \lst@framebox=\box79
 )
 (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
@@ -895,8 +934,8 @@ Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
 .tex)
 \pgffor@iter=\dimen303
 \pgffor@skip=\dimen304
-\pgffor@stack=\toks50
-\pgffor@toks=\toks51
+\pgffor@stack=\toks52
+\pgffor@toks=\toks53
 ))
 (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z\tikz.code.tex
@@ -905,7 +944,7 @@ Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
 (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
 aryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count345
+\pgf@plot@mark@count=\count368
 \pgfplotmarksize=\dimen305
 )
 \tikz@lastx=\dimen306
@@ -920,19 +959,19 @@ File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \tikz@figbox@bg=\box82
 \tikz@tempbox=\box83
 \tikz@tempbox@bg=\box84
-\tikztreelevel=\count346
-\tikznumberofchildren=\count347
-\tikznumberofcurrentchild=\count348
-\tikz@fig@count=\count349
+\tikztreelevel=\count369
+\tikznumberofchildren=\count370
+\tikznumberofcurrentchild=\count371
+\tikz@fig@count=\count372
 
 (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 matrix.code.tex
 File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count350
-\pgfmatrixcurrentcolumn=\count351
-\pgf@matrix@numberofcolumns=\count352
+\pgfmatrixcurrentrow=\count373
+\pgfmatrixcurrentcolumn=\count374
+\pgf@matrix@numberofcolumns=\count375
 )
-\tikz@expandcount=\count353
+\tikz@expandcount=\count376
 
 (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibrarytopaths.code.tex
@@ -1054,15 +1093,15 @@ Package: expl3 2022-11-02 L3 programming layer (loader)
 (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count354
+\l__color_backend_stack_int=\count377
 \l__pdf_internal_box=\box105
 ))
 Package: xparse 2022-06-22 L3 Experimental document command parser
 )
 (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring.sty
 (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstring.tex
-\integerpart=\count355
-\decimalpart=\count356
+\integerpart=\count378
+\decimalpart=\count379
 )
 Package: xstring 2021/07/21 v1.84 String manipulations (CT)
 )
@@ -1075,21 +1114,21 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
 (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count357
-\calc@Bcount=\count358
+\calc@Acount=\count380
+\calc@Bcount=\count381
 \calc@Adimen=\dimen315
 \calc@Bdimen=\dimen316
-\calc@Askip=\skip67
-\calc@Bskip=\skip68
+\calc@Askip=\skip70
+\calc@Bskip=\skip71
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count359
-\calc@Cskip=\skip69
+\calc@Ccount=\count382
+\calc@Cskip=\skip72
 )
 (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/pgfopts\pgfopts.sty
 Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
-\pgfopts@list@add@a@toks=\toks52
-\pgfopts@list@add@b@toks=\toks53
+\pgfopts@list@add@a@toks=\toks54
+\pgfopts@list@add@b@toks=\toks55
 )
 (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibrarybackgrounds.code.tex
@@ -1112,7 +1151,7 @@ decorations.code.tex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen319
 \pgfdecoratedinputsegmentremainingdistance=\dimen320
 \pgf@decorate@distancetomove=\dimen321
-\pgf@decorate@repeatstate=\count360
+\pgf@decorate@repeatstate=\count383
 \pgfdecorationsegmentamplitude=\dimen322
 \pgfdecorationsegmentlength=\dimen323
 )
@@ -1120,7 +1159,7 @@ decorations.code.tex
 )
 (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorat
 ions\pgflibrarydecorations.markings.code.tex))
-\c@tikzumlPackageLayers=\count361
+\c@tikzumlPackageLayers=\count384
 \pgf@layerbox@package0=\box110
 \pgf@layerboxsaved@package0=\box111
 \pgf@layerbox@package1=\box112
@@ -1129,7 +1168,7 @@ ions\pgflibrarydecorations.markings.code.tex))
 \pgf@layerboxsaved@package2=\box115
 \pgf@layerbox@package3=\box116
 \pgf@layerboxsaved@package3=\box117
-\c@tikzumlFragmentLayers=\count362
+\c@tikzumlFragmentLayers=\count385
 \pgf@layerbox@fragment0=\box118
 \pgf@layerboxsaved@fragment0=\box119
 \pgf@layerbox@fragment1=\box120
@@ -1138,7 +1177,7 @@ ions\pgflibrarydecorations.markings.code.tex))
 \pgf@layerboxsaved@fragment2=\box123
 \pgf@layerbox@fragment3=\box124
 \pgf@layerboxsaved@fragment3=\box125
-\c@tikzumlStateLayers=\count363
+\c@tikzumlStateLayers=\count386
 \pgf@layerbox@state0=\box126
 \pgf@layerboxsaved@state0=\box127
 \pgf@layerbox@state1=\box128
@@ -1147,7 +1186,7 @@ ions\pgflibrarydecorations.markings.code.tex))
 \pgf@layerboxsaved@state2=\box131
 \pgf@layerbox@state3=\box132
 \pgf@layerboxsaved@state3=\box133
-\c@tikzumlComponentLayers=\count364
+\c@tikzumlComponentLayers=\count387
 \pgf@layerbox@component0=\box134
 \pgf@layerboxsaved@component0=\box135
 \pgf@layerbox@component1=\box136
@@ -1162,67 +1201,67 @@ ions\pgflibrarydecorations.markings.code.tex))
 \pgf@layerboxsaved@activity=\box145
 \pgf@layerbox@connections=\box146
 \pgf@layerboxsaved@connections=\box147
-\c@tikzumlPackageClassNum=\count365
-\c@tikzumlPackageSubPackageNum=\count366
-\c@tikzumlRelationNum=\count367
-\c@tikzumlNoteNum=\count368
-\c@pos=\count369
-\c@posT=\count370
-\c@posStereo=\count371
-\c@tikzumlPackageLevel=\count372
+\c@tikzumlPackageClassNum=\count388
+\c@tikzumlPackageSubPackageNum=\count389
+\c@tikzumlRelationNum=\count390
+\c@tikzumlNoteNum=\count391
+\c@pos=\count392
+\c@posT=\count393
+\c@posStereo=\count394
+\c@tikzumlPackageLevel=\count395
 \tikzumlNestingSymbolSize=\dimen324
-\c@tikzumlSystemUseCaseNum=\count373
-\c@tikzumlSystemLevel=\count374
-\c@tikzumlUseCaseNum=\count375
-\c@tikzumlActorNum=\count376
-\c@tikzumlStateJoinNum=\count377
-\c@tikzumlStateDecisionNum=\count378
-\c@tikzumlStateInitialNum=\count379
-\c@tikzumlStateFinalNum=\count380
-\c@tikzumlStateEnterNum=\count381
-\c@tikzumlStateExitNum=\count382
-\c@tikzumlStateEndNum=\count383
-\c@tikzumlStateHistoryNum=\count384
-\c@tikzumlStateDeepHistoryNum=\count385
-\c@tikzumlStateLevel=\count386
-\c@tikzumlStateSubStateNum=\count387
-\c@tikzumlStateText=\count388
-\c@tikzumlObjectNum=\count389
-\c@tikzumlCallLevel=\count390
-\c@tikzumlCallNum=\count391
-\c@tikzumlFragmentLevel=\count392
-\c@tikzumlFragmentLevelNum=\count393
-\c@tikzumlFragmentNum=\count394
-\c@tikzumlFragmentPartNum=\count395
-\c@tikzumlCallStartFragmentNum=\count396
-\c@tikzumlCallEndFragmentNum=\count397
-\c@tikzumlSDNodeNum=\count398
-\tikzumlCall@xa=\skip70
-\tikzumlCall@xb=\skip71
-\c@tikzumlComponentLevel=\count399
-\c@tikzumlComponentSubComponentNum=\count400
-\c@tikzumlConnectorNum=\count401
-\tikzuml@AC@xa=\skip72
-\tikzuml@AC@ya=\skip73
-\tikzuml@AC@xb=\skip74
-\tikzuml@AC@yb=\skip75
-\tikzuml@AC@xi=\skip76
-\tikzuml@AC@yi=\skip77
-\tikzuml@AC@xic=\skip78
-\tikzuml@AC@yic=\skip79
-\tikzuml@AC@xio=\skip80
-\tikzuml@AC@yio=\skip81
-\tikzuml@AC@AB=\skip82
-\tikzuml@AC@lambda=\skip83
-\tikzuml@AC@xtrc=\skip84
-\tikzuml@AC@ytrc=\skip85
-\tikzuml@AC@xtlc=\skip86
-\tikzuml@AC@ytlc=\skip87
-\tikzuml@AC@xblc=\skip88
-\tikzuml@AC@yblc=\skip89
-\tikzuml@AC@xbrc=\skip90
-\tikzuml@AC@ybrc=\skip91
-\tikzuml@AC@middleArm=\skip92
+\c@tikzumlSystemUseCaseNum=\count396
+\c@tikzumlSystemLevel=\count397
+\c@tikzumlUseCaseNum=\count398
+\c@tikzumlActorNum=\count399
+\c@tikzumlStateJoinNum=\count400
+\c@tikzumlStateDecisionNum=\count401
+\c@tikzumlStateInitialNum=\count402
+\c@tikzumlStateFinalNum=\count403
+\c@tikzumlStateEnterNum=\count404
+\c@tikzumlStateExitNum=\count405
+\c@tikzumlStateEndNum=\count406
+\c@tikzumlStateHistoryNum=\count407
+\c@tikzumlStateDeepHistoryNum=\count408
+\c@tikzumlStateLevel=\count409
+\c@tikzumlStateSubStateNum=\count410
+\c@tikzumlStateText=\count411
+\c@tikzumlObjectNum=\count412
+\c@tikzumlCallLevel=\count413
+\c@tikzumlCallNum=\count414
+\c@tikzumlFragmentLevel=\count415
+\c@tikzumlFragmentLevelNum=\count416
+\c@tikzumlFragmentNum=\count417
+\c@tikzumlFragmentPartNum=\count418
+\c@tikzumlCallStartFragmentNum=\count419
+\c@tikzumlCallEndFragmentNum=\count420
+\c@tikzumlSDNodeNum=\count421
+\tikzumlCall@xa=\skip73
+\tikzumlCall@xb=\skip74
+\c@tikzumlComponentLevel=\count422
+\c@tikzumlComponentSubComponentNum=\count423
+\c@tikzumlConnectorNum=\count424
+\tikzuml@AC@xa=\skip75
+\tikzuml@AC@ya=\skip76
+\tikzuml@AC@xb=\skip77
+\tikzuml@AC@yb=\skip78
+\tikzuml@AC@xi=\skip79
+\tikzuml@AC@yi=\skip80
+\tikzuml@AC@xic=\skip81
+\tikzuml@AC@yic=\skip82
+\tikzuml@AC@xio=\skip83
+\tikzuml@AC@yio=\skip84
+\tikzuml@AC@AB=\skip85
+\tikzuml@AC@lambda=\skip86
+\tikzuml@AC@xtrc=\skip87
+\tikzuml@AC@ytrc=\skip88
+\tikzuml@AC@xtlc=\skip89
+\tikzuml@AC@ytlc=\skip90
+\tikzuml@AC@xblc=\skip91
+\tikzuml@AC@yblc=\skip92
+\tikzuml@AC@xbrc=\skip93
+\tikzuml@AC@ybrc=\skip94
+\tikzuml@AC@middleArm=\skip95
 )
 (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
@@ -1231,8 +1270,8 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \TX@old@col=\dimen327
 \TX@target=\dimen328
 \TX@delta=\dimen329
-\TX@cols=\count402
-\TX@ftn=\toks54
+\TX@cols=\count425
+\TX@ftn=\toks56
 )
 (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
@@ -1275,8 +1314,8 @@ Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
 (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/media9\pdfbase.sty
 Package: pdfbase 2022/08/04 v0.55 driver independent access to low-level PDF fe
 atures
-\g_pbs_page_int=\count403
-\g_pbs_oc_int=\count404
+\g_pbs_page_int=\count426
+\g_pbs_oc_int=\count427
 )
 (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/zref\zref-abspage.sty
 Package: zref-abspage 2022-04-07 v2.34 Module abspage for zref (HO)
@@ -1287,54 +1326,57 @@ Package zref Info: New property list: main on input line 767.
 Package zref Info: New property: default on input line 768.
 Package zref Info: New property: page on input line 769.
 )
-\c@abspage=\count405
+\c@abspage=\count428
 Package zref Info: New property: abspage on input line 65.
 )
 (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/ocgx2\ocgbase.sty
 Package: ocgbase 2022/08/04 v0.22 support package for ocgx2.sty
-\g_ocgbase_nd_int=\count406
+\g_ocgbase_nd_int=\count429
 )
 \@anim@box=\box148
 \@anim@measbox=\box149
 \@anim@tmpdima=\dimen330
 \@anim@tmpdimb=\dimen331
-\@anim@num=\count407
-\@anim@curframe=\count408
-\@anim@curframe@zb=\count409
-\@anim@resizeflags=\count410
-\@anim@skipfram=\count411
-\@anim@mulframecnt=\count412
+\@anim@num=\count430
+\@anim@curframe=\count431
+\@anim@curframe@zb=\count432
+\@anim@resizeflags=\count433
+\@anim@skipfram=\count434
+\@anim@mulframecnt=\count435
 \@anim@@tmlnfile=\read4
-\@anim@tmpcnt=\count413
-\c@@anim@ltxcnt=\count414
-\@anim@curlayer=\count415
-\@anim@lineno=\count416
-\@anim@curfield=\count417
-\@anim@@resizeflags=\count418
+\@anim@tmpcnt=\count436
+\c@@anim@ltxcnt=\count437
+\@anim@curlayer=\count438
+\@anim@lineno=\count439
+\@anim@curfield=\count440
+\@anim@@resizeflags=\count441
 ))
-\tikzscale@accuracy=\skip93
+\tikzscale@accuracy=\skip96
 
-(uml.aux)
+(uml.aux
+<Reading QR code for "https://www.ctan.org/tex-archive/macros/latex/contrib/qrc
+ode?lang=en" at level 5-M from aux file.>
+)
 \openout1 = `uml.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1374,17 +1416,17 @@ LaTeX Font Info:    ... okay on input line 87.
 (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count419
+\scratchcounter=\count442
 \scratchdimen=\dimen332
 \scratchbox=\box150
-\nofMPsegments=\count420
-\nofMParguments=\count421
-\everyMPshowfont=\toks55
-\MPscratchCnt=\count422
+\nofMPsegments=\count443
+\nofMParguments=\count444
+\everyMPshowfont=\toks57
+\MPscratchCnt=\count445
 \MPscratchDim=\dimen333
-\MPnumerator=\count423
-\makeMPintoPDFobject=\count424
-\everyMPtoPDFconversion=\toks56
+\MPnumerator=\count446
+\makeMPintoPDFobject=\count447
+\everyMPtoPDFconversion=\toks58
 )
 (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -1396,63 +1438,63 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 87.
+Package hyperref Info: Link coloring OFF on input line 88.
  (uml.out) (uml.out)
 \@outlinefile=\write5
 \openout5 = `uml.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 87.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 88.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 87.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 88.
 \symnumbers=\mathgroup7
 \sympureletters=\mathgroup8
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 87.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 87.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 88.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 88.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 87.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 88.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 87.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 87.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 88.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 88.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 87.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 88.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 87.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 87.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 88.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 88.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 87.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 88.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 87.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 87.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 88.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 88.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 87.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 88.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 87.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 88.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 87.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 88.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 87.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 88.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 87.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 88.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 87.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 88.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 87.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 88.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 87.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 88.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 87.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 87.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 88.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 88.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
 (Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 8
-7.
+8.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 8
-7.
+8.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 87.
+ut line 88.
 
 (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-b
 asic-dictionary-English.dict
@@ -1478,41 +1520,41 @@ Dictionary: translator-numbers-dictionary, Language: English
 heorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-\c@lstlisting=\count425
+\c@lstlisting=\count448
  (uml.nav)
-Overfull \hbox (7.10716pt too wide) in paragraph at lines 87--87
+Overfull \hbox (7.10716pt too wide) in paragraph at lines 88--88
 |  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 
  []
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 91.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 92.
 
 (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 91.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 92.
 
 
 (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 91
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 92
 .
 
 (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 91.
+ut line 92.
 
 (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\ot1mathk
 erncmss.fd
@@ -1523,10 +1565,10 @@ thkerncmss.
 File: Gestaltung/Logo_Hochschule_Ansbach.png Graphic file (type png)
 <use Gestaltung/Logo_Hochschule_Ansbach.png>
 Package pdftex.def Info: Gestaltung/Logo_Hochschule_Ansbach.png  used on input 
-line 91.
+line 92.
 (pdftex.def)             Requested size: 48.36958pt x 20.90813pt.
 
-Overfull \hbox (65.72926pt too wide) in paragraph at lines 91--91
+Overfull \hbox (65.72926pt too wide) in paragraph at lines 92--92
 []|  [][][][][]  
  []
 
@@ -1550,10 +1592,10 @@ Missing character: There is no t in font nullfont!
 File: Gestaltung/Logo_Hochschule_Ansbach.png Graphic file (type png)
 <use Gestaltung/Logo_Hochschule_Ansbach.png>
 Package pdftex.def Info: Gestaltung/Logo_Hochschule_Ansbach.png  used on input 
-line 159.
+line 160.
 (pdftex.def)             Requested size: 48.36958pt x 20.90813pt.
 
-Overfull \hbox (65.72926pt too wide) in paragraph at lines 159--159
+Overfull \hbox (65.72926pt too wide) in paragraph at lines 160--160
 []|  [][][][][]  
  []
 
@@ -1565,6 +1607,53 @@ Overfull \hbox (8.52385pt too wide) has occurred while \output is active
 [2
 
 ]
+
+
+<QR code requested for "https://github.com/OberMarco/OpenSourceSoftwareUML" in 
+version 0-M.>
+
+<Calculating QR code for "https://github.com/OberMarco/OpenSourceSoftwareUML" i
+n version 4-M.>
+<Splitting off block 1> <Splitting off block 2> <Making error block 1>
+<Making error block 2> <Interleaving datablocks of length 32\ and 33:  1, 2,
+3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23,
+24, 25, 26, 27, 28, 29, 30, 31, 32, .>
+<Interleaving errorblocks of length 18:  1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11,
+12, 13, 14, 15, 16, 17, 18, .><Interleaving complete.> <Writing data...
+done.>
+<Applying Mask 0... done. Calculating penalty... penalty is 1525>
+<Applying Mask 1... done. Calculating penalty... penalty is 1463>
+<Applying Mask 2... done. Calculating penalty... penalty is 1376>
+<Applying Mask 3... done. Calculating penalty... penalty is 1336>
+<Applying Mask 4... done. Calculating penalty... penalty is 1389>
+<Applying Mask 5... done. Calculating penalty... penalty is 1388>
+<Applying Mask 6... done. Calculating penalty... penalty is 1366>
+<Applying Mask 7... done. Calculating penalty... penalty is 1359>
+<Selected Mask 3>
+<Encoding and writing format string... done.>
+<Encoding and writing version information... done.>
+<Saving QR code to memory... done.>
+<Writing QR code to aux file... done.>
+<Printing matrix... done.>
+
+File: Gestaltung/Logo_Hochschule_Ansbach.png Graphic file (type png)
+<use Gestaltung/Logo_Hochschule_Ansbach.png>
+Package pdftex.def Info: Gestaltung/Logo_Hochschule_Ansbach.png  used on input 
+line 175.
+(pdftex.def)             Requested size: 48.36958pt x 20.90813pt.
+
+Overfull \hbox (65.72926pt too wide) in paragraph at lines 175--175
+[]|  [][][][][]  
+ []
+
+
+Overfull \hbox (8.52385pt too wide) has occurred while \output is active
+[] |  [][]
+ []
+
+[3
+
+]
 \tf@nav=\write6
 \openout6 = `uml.nav'.
 
@@ -1574,27 +1663,30 @@ Overfull \hbox (8.52385pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `uml.snm'.
 
- (uml.aux)
+ (uml.aux
+<Reading QR code for "https://github.com/OberMarco/OpenSourceSoftwareUML" at le
+vel 4-M from aux file.>
+)
 Package rerunfilecheck Info: File `uml.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 36020 strings out of 475284
- 784049 string characters out of 2774105
- 1398348 words of memory out of 3000000
- 56781 multiletter control sequences out of 15000+600000
+ 41060 strings out of 475284
+ 864338 string characters out of 2774105
+ 1431349 words of memory out of 3000000
+ 61805 multiletter control sequences out of 15000+600000
  476939 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,15n,122p,512b,1560s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 128i,15n,254p,1584b,1866s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmss10.pfb><C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmss12.pfb><C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmss8.pfb><C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/marco/AppData/Local/Programs/MiK
 TeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on uml.pdf (2 pages, 86055 bytes).
+Output written on uml.pdf (3 pages, 89858 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
- 5 named destinations out of 1000 (max. 500000)
+ 93 PDF objects out of 1000 (max. 8388607)
+ 7 named destinations out of 1000 (max. 500000)
  144 words of extra memory for PDF output out of 10000 (max. 10000000)
 

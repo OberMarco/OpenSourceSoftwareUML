@@ -7,6 +7,7 @@
 
 %\usepackage{xcolor}
 \usetheme{default}
+\usepackage{qrcode}
 % deutsche Silbentrennung
 \usepackage[ngerman]{babel}
 % Deutsche Umlaute
@@ -127,7 +128,7 @@
 						\umlVHassemblyconnector[interface=historische Zeitreihen, anchor1=125, anchor2 = -200]{Forecast}{Zeitreihendatenbank}Forecast
 						
 						\umlVHVassemblyconnector[interface=Aktuelle Tagesdaten, anchor1=-90]{Zeitreihendatenbank}{Visualisierung}
-						\umlHVHassemblyconnector[interface=Python API InfluxDB, anchor1=-20, anchor2= 180]{Zeitreihendatenbank}{Optimierung}
+						\umlHVHassemblyconnector[interface=Fahrpläne Gebäudesteuerung, anchor1=-20, anchor2= 180]{Zeitreihendatenbank}{Optimierung}
 						\umlVHassemblyconnector[interface={historische und vorhergesagte Zeitreihen}, anchor1=45, anchor2= 20, arm1=3cm]{Optimierung}{Zeitreihendatenbank}
 						
 						
@@ -156,6 +157,21 @@
 			\end{block}
 		\end{column}
 	\end{columns}
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Einleitung
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{abc}
+	
+
+
+\qrcode[height=3in]{https://github.com/OberMarco/OpenSourceSoftwareUML}
+abc
 \end{frame}
 	
 	
