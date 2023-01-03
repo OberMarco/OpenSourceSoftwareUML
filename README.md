@@ -42,8 +42,6 @@ In this project, the following open source software are investigated and compare
 
 ## Example 
 
-
-
 ![](Diagramms/Hand/uml.png)
 
 ## PlantUML
