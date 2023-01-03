@@ -61,6 +61,13 @@ Fahrpläne_Gebäudesteuerung  -left- Zeitreihendatenbank
 vorhergesagte_Zeitreihen  -right- Zeitreihendatenbank
 
 
+historische_und_vorhergesagte_Zeitreihen  -up- Zeitreihendatenbank
+historische_Zeitreihen  -up- Zeitreihendatenbank
+
+Forecast -up- historische_Zeitreihen  
+Optimierung -up- historische_und_vorhergesagte_Zeitreihen
+
+
 
 
 
