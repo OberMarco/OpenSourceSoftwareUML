@@ -42,7 +42,7 @@ In this project, the following open source software are investigated and compare
 
 ## Example 
 
-![](Diagramms/Hand/uml.png)
+![](Diagramms/Hand/uml.PNG)
 
 ## PlantUML
 
@@ -56,7 +56,7 @@ keine Leerzeichen
 
 ## Integrated Latex UML - TikZ-UML
 
-![](Diagramms/Tikz-Latex-UML/uml.png)
+![](Diagramms/Tikz-Latex-UML/uml.PNG)
 kein Datenbanksymbol im komponentendiagramm
 
 ## Draw.io APP
