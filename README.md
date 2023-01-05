@@ -1,4 +1,4 @@
-# Project desciption of the course *Open-Source Software for the Working Scientist*
+# Project description of the course *Open-Source Software for the Working Scientist*
 *Author:* Marco Obermeier - Master Student of Applied Science at the [University of Applied Science Ansbach](https://www.hs-ansbach.de/en/home/) 
 ## Table of contents
 1. [Introduction](#introduction)
@@ -23,12 +23,17 @@ In scientific projects, the project budget is usually small. For this reason, ex
 Based on the creation of 1-2 UML diagrams, differences, advantages and disadvantages of open source solutions for UML diagrams will be worked out.
 The created UML diagram will continue to be used in the research work of the Masters of applied Research. 
 The focus of the diagrams is on the abstract and clear representation of software and software designs. The diagrams are intended to be used in a scientific context for publications and collaboration. The use of the diagrams is to be distinguished from UML diagrams, which are a detailed view of the implementation of the software.
-	
+
+
+## Theoritical Background - UML 
+
+[An Overview of the unified modeling language](https://perso.ensta-paris.fr/~kielbasi/tikzuml/index.php)	
+
 ## Software products
 	
 In this project, the following open source software are investigated and compared:
 - [PlantUML](https://plantuml.com/de/)
-- [Integrated Latex UML - TikZ-UML](https://perso.ensta-paris.fr/~kielbasi/tikzuml/index.php)
+- 
 - [Draw.io App - UML](https://drawio-app.com/uml-diagrams/)
 	
 	
