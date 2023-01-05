@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.11.25) (preloaded format=pdflatex 2022.12.1)  5 JAN 2023 13:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.11.25) (preloaded format=pdflatex 2022.12.1)  5 JAN 2023 18:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1356,6 +1356,9 @@ Package: ocgbase 2022/08/04 v0.22 support package for ocgx2.sty
 (presentation.aux
 <Reading QR code for "https://github.com/OberMarco/OpenSourceSoftwareUML" at le
 vel 4-M from aux file.>
+
+LaTeX Warning: Label `b1' multiply defined.
+
 )
 \openout1 = `presentation.aux'.
 
@@ -1620,10 +1623,10 @@ Overfull \hbox (8.52385pt too wide) has occurred while \output is active
 File: Gestaltung/Logo_Hochschule_Ansbach.png Graphic file (type png)
 <use Gestaltung/Logo_Hochschule_Ansbach.png>
 Package pdftex.def Info: Gestaltung/Logo_Hochschule_Ansbach.png  used on input 
-line 166.
+line 183.
 (pdftex.def)             Requested size: 48.36958pt x 20.90813pt.
 
-Overfull \hbox (65.72926pt too wide) in paragraph at lines 166--166
+Overfull \hbox (65.72926pt too wide) in paragraph at lines 183--183
 []|  [][][][][]  
  []
 
@@ -1633,6 +1636,67 @@ Overfull \hbox (8.52385pt too wide) has occurred while \output is active
  []
 
 [4
+
+ <C:/Users/marco/AppData/Local/Programs/MiKTeX/tex/latex/beamer/beamericonartic
+le.pdf>]
+<../Diagramms/Hand/uml.PNG, id=93, 934.24031pt x 691.45828pt>
+File: ../Diagramms/Hand/uml.PNG Graphic file (type png)
+<use ../Diagramms/Hand/uml.PNG>
+Package pdftex.def Info: ../Diagramms/Hand/uml.PNG  used on input line 211.
+(pdftex.def)             Requested size: 233.55951pt x 172.86414pt.
+
+Overfull \hbox (33.82298pt too wide) in paragraph at lines 211--211
+[][] 
+ []
+
+
+Overfull \hbox (23.63406pt too wide) in paragraph at lines 211--211
+\OT1/cmss/m/n/10.95 Komponentendiagramm  
+ []
+
+File: Gestaltung/Logo_Hochschule_Ansbach.png Graphic file (type png)
+<use Gestaltung/Logo_Hochschule_Ansbach.png>
+Package pdftex.def Info: Gestaltung/Logo_Hochschule_Ansbach.png  used on input 
+line 211.
+(pdftex.def)             Requested size: 48.36958pt x 20.90813pt.
+
+Overfull \hbox (65.72926pt too wide) in paragraph at lines 211--211
+[]|  [][][][][]  
+ []
+
+
+Overfull \hbox (8.52385pt too wide) has occurred while \output is active
+[] |  [][]
+ []
+
+[5
+
+ <../Diagramms/Hand/uml.PNG>]
+File: ../Diagramms/Hand/uml.PNG Graphic file (type png)
+<use ../Diagramms/Hand/uml.PNG>
+Package pdftex.def Info: ../Diagramms/Hand/uml.PNG  used on input line 237.
+(pdftex.def)             Requested size: 233.55951pt x 172.86414pt.
+
+Overfull \hbox (18.45755pt too wide) in paragraph at lines 237--237
+[][] 
+ []
+
+File: Gestaltung/Logo_Hochschule_Ansbach.png Graphic file (type png)
+<use Gestaltung/Logo_Hochschule_Ansbach.png>
+Package pdftex.def Info: Gestaltung/Logo_Hochschule_Ansbach.png  used on input 
+line 237.
+(pdftex.def)             Requested size: 48.36958pt x 20.90813pt.
+
+Overfull \hbox (65.72926pt too wide) in paragraph at lines 237--237
+[]|  [][][][][]  
+ []
+
+
+Overfull \hbox (8.52385pt too wide) has occurred while \output is active
+[] |  [][]
+ []
+
+[6
 
 ]
 Missing character: There is no F in font nullfont!
@@ -1646,10 +1710,10 @@ Missing character: There is no t in font nullfont!
 File: Gestaltung/Logo_Hochschule_Ansbach.png Graphic file (type png)
 <use Gestaltung/Logo_Hochschule_Ansbach.png>
 Package pdftex.def Info: Gestaltung/Logo_Hochschule_Ansbach.png  used on input 
-line 231.
+line 303.
 (pdftex.def)             Requested size: 48.36958pt x 20.90813pt.
 
-Overfull \hbox (65.72926pt too wide) in paragraph at lines 231--231
+Overfull \hbox (65.72926pt too wide) in paragraph at lines 303--303
 []|  [][][][][]  
  []
 
@@ -1658,7 +1722,7 @@ Overfull \hbox (8.52385pt too wide) has occurred while \output is active
 [] |  [][]
  []
 
-[5
+[7
 
 ]
 
@@ -1671,15 +1735,11 @@ n version 4-M as previously calculated.>
 File: Gestaltung/Logo_Hochschule_Ansbach.png Graphic file (type png)
 <use Gestaltung/Logo_Hochschule_Ansbach.png>
 Package pdftex.def Info: Gestaltung/Logo_Hochschule_Ansbach.png  used on input 
-line 267.
+line 317.
 (pdftex.def)             Requested size: 48.36958pt x 20.90813pt.
 
-Overfull \hbox (65.72926pt too wide) in paragraph at lines 267--267
+Overfull \hbox (65.72926pt too wide) in paragraph at lines 317--317
 []|  [][][][][]  
- []
-
-
-Overfull \vbox (116.35033pt too high) detected at line 267
  []
 
 
@@ -1687,7 +1747,20 @@ Overfull \hbox (8.52385pt too wide) has occurred while \output is active
 [] |  [][]
  []
 
-[6
+[8
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{beamerbibb1})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.331 \end{frame}
+                 
+Overfull \hbox (8.52385pt too wide) has occurred while \output is active
+[] |  [][]
+ []
+
+[9
 
 ]
 \tf@nav=\write6
@@ -1699,41 +1772,37 @@ Overfull \hbox (8.52385pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `presentation.snm'.
 
-
-
-LaTeX Warning: Hook 'shipout/lastpage' executed on wrong page (5 not 6).
-               Rerun to correct this.
-
-(presentation.aux
+ (presentation.aux
 <Reading QR code for "https://github.com/OberMarco/OpenSourceSoftwareUML" at le
 vel 4-M from aux file.>
 )
 
-Package rerunfilecheck Warning: File `presentation.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: Checksums for `presentation.out':
-(rerunfilecheck)             Before: 47949AC7C3DCEDDDEEFE3CD50587DDA1;103
-(rerunfilecheck)             After:  B1C9FB00011F507558177D3A2A66717B;214.
+Package rerunfilecheck Info: File `presentation.out' has not changed.
+(rerunfilecheck)             Checksum: C9B865AFC2015293BE6A015B6C3FB029;96.
  ) 
 Here is how much of TeX's memory you used:
- 37809 strings out of 475284
- 811995 string characters out of 2774105
- 1432367 words of memory out of 3000000
- 58544 multiletter control sequences out of 15000+600000
- 476939 words of font info for 57 fonts, out of 8000000 for 9000
+ 38121 strings out of 475284
+ 821176 string characters out of 2774105
+ 1431367 words of memory out of 3000000
+ 58840 multiletter control sequences out of 15000+600000
+ 479198 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,15n,122p,1277b,1633s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 128i,17n,122p,1277b,1889s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmss10.pfb><C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmss12.pfb><C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmss8.pfb><C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/marco/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on presentation.pdf (6 pages, 98723 bytes).
+/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/marco/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Users/marco/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/marco/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Users/marc
+o/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+
+Output written on presentation.pdf (9 pages, 3739725 bytes).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
- 15 named destinations out of 1000 (max. 500000)
- 152 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 174 PDF objects out of 1000 (max. 8388607)
+ 22 named destinations out of 1000 (max. 500000)
+ 157 words of extra memory for PDF output out of 10000 (max. 10000000)
 

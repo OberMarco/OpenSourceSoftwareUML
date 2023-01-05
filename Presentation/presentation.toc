@@ -1,3 +1,2 @@
 \babel@toc {ngerman}{}\relax 
-\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
-\beamer@sectionintoc {2}{UML Diagramme}{4}{0}{2}
+\beamer@sectionintoc {1}{Einführung}{3}{0}{1}

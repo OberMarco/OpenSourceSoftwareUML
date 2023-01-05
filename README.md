@@ -1,4 +1,4 @@
-# Project description of the course *Open-Source Software for the Working Scientist*
+# Project description of the course *Open-Source Software of Working Scientists*
 *Author:* Marco Obermeier - Master Student of Applied Science at the [University of Applied Science Ansbach](https://www.hs-ansbach.de/en/home/) 
 ## Table of contents
 1. [Introduction](#introduction)
@@ -27,13 +27,13 @@ The focus of the diagrams is on the abstract and clear representation of softwar
 
 ## Theoritical Background - UML 
 
-[An Overview of the unified modeling language](https://perso.ensta-paris.fr/~kielbasi/tikzuml/index.php)	
+[An Overview of the unified modeling language](https://doi.org/10.1075/idj.11.2.07akk)
 
 ## Software products
 	
 In this project, the following open source software are investigated and compared:
 - [PlantUML](https://plantuml.com/de/)
-- 
+- [Integrated Latex UML - TikZ-UML](https://perso.ensta-paris.fr/~kielbasi/tikzuml/index.php)
 - [Draw.io App - UML](https://drawio-app.com/uml-diagrams/)
 	
 	

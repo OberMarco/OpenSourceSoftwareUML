@@ -103,8 +103,8 @@
 	%Introduction
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	\begin{frame}
-		\section{Introduction}
-		\frametitle{Introduction}
+		\section{Einführung}
+		\frametitle{Einführung}
 		\begin{columns}
 			\begin{column}{0.50\textwidth}
 				\begin{block}{Campus Feuchtwangen}
@@ -138,32 +138,104 @@
 	%UML Diagramme
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	\begin{frame}
-		\section{UML Diagramme}
-		\frametitle{UML Diagramme}
+		\frametitle{UML-Diagramme}
 		\begin{columns}
 			\begin{column}{0.50\textwidth}
-				\begin{block}{Campus Feuchtwangen}
+				\begin{block}{Was ist UML?}
 					\begin{itemize}
-						\item Entwicklung eines Smart Energy Systems
-						\item Intelligente Nutzung nachhaltiger Gebäudetechnik
-						\item Intelligenter Bezug vom Stromnetz und Einspeisung
-						\item Großer Softwareanteil
+						\item Standard im Software Engineering
+						\item Zusammenstellung verschiedener Modellierungstechniken und Diagrammen
 					\end{itemize}
 				\end{block}
 			\end{column}
 			
 			\begin{column}{0.50\textwidth}
-				\begin{block}{Professionelle Entwicklung}
-					\begin{itemize}
-						\item Struktierte Software
-						\item Softwareentwicklung im Team und nachvollziehbare Dokumentation
-						\item Einsatz von UML-Diagrammen (unified modeling language)
-					\end{itemize}
+				\begin{block}{Beispiel Komponentendiagramm}
+						\begin{itemize}
+							\item Logische Komponenten und physische Komponenten 
+							\item Schnittstellen und Zusammenhang zwischen Komponenten
+						\end{itemize}
+					\begin{minipage}{1.0\textwidth}	
+						\resizebox{\columnwidth}{!}{
+					\begin{tikzpicture}
+						
+						% Komponenten
+						\umlbasiccomponent[x=0,y=0]{Komponente 1}
+						\umlbasiccomponent[x=6,y=0]{Komponente 2}
+
+						% Verbindungen
+						\umlassemblyconnector[interface= Schnittstelle 1]{Komponente 1}{Komponente 2}
+						
+					\end{tikzpicture}
+				}
+			\end{minipage}
+		
 				\end{block}
 			\end{column}
 		\end{columns}
-		
+		\begin{thebibliography}{00}
+			\tiny
+			\bibliographystyle{IEEEtran}
+			\bibitem{b1}Akkøk, M. An overview of the unified modeling language and diagrammatic modeling language design in software engineering. {\em Information Design Journal}. \textbf{11}, 151-159 (2002), \url{https://www.jbe-platform.com/content/journals/10.1075/idj.11.2.07akk}
+			\bibitem{b2} Fakhroutdinov, Kirill. “UML 2.5 Diagrams Overview.” UML Diagrams - Overview, Reference, and Examples., 25 Nov. 2013, \url{https://www.uml-diagrams.org/uml-25-diagrams.html} 
+			
+		\end{thebibliography}
 	\end{frame}
+	
+	
+	
+	
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	%UML Diagramme
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{frame}
+		\frametitle{Untersuchtes Diagramm des Forschungsprojekts}
+		\begin{columns}
+			\begin{column}{0.65\textwidth}
+				\begin{minipage}{\textwidth}
+					\includegraphics[scale=0.25]{../Diagramms/Hand/uml.PNG}
+				\end{minipage}
+			\end{column}
+			
+			\begin{column}{0.35\textwidth}
+				\begin{block}{Untersuchtes Diagramm}
+					\begin{itemize}
+						\item Komponentendiagramm
+						\item Schnittstellen und Zusammenhang zwischen Komponenten
+					\end{itemize}
+					
+				\end{block}
+			\end{column}
+		\end{columns}
+	\end{frame}
+	
+	
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%UML Diagramme
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Untersuchungskriterien}
+	\begin{columns}
+		\begin{column}{0.70\textwidth}
+			\begin{minipage}{\textwidth}
+				\includegraphics[scale=0.25]{../Diagramms/Hand/uml.PNG}
+			\end{minipage}
+		\end{column}
+		
+		\begin{column}{0.30\textwidth}
+			\begin{block}{Beispiel Komponentendiagramm}
+				\begin{itemize}
+					\item Logische Komponenten und physische Komponenten 
+					\item Schnittstellen und Zusammenhang zwischen Komponenten
+				\end{itemize}
+				
+			\end{block}
+		\end{column}
+	\end{columns}
+\end{frame}
+
 	
 	
 	
@@ -232,40 +304,36 @@
 
 
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Introduction
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}
 	\frametitle{Introduction}
-	\begin{columns}
-		\begin{column}{0.70\textwidth}
-			\begin{block}{Kategeroien der Komponenten}
-				\begin{itemize}
-					\item blau$\equiv$ Hardware
-					\item gelb $\equiv$ Software
-					\item rot	$\equiv$ Echtzeit-kritisch
-				\end{itemize}
-			\end{block}
-		\end{column}
 	
-		\begin{column}{0.30\textwidth}
-			\begin{block}{Kategeroien der Komponenten}
-				\begin{itemize}
-					\item blau$\equiv$ Hardware
-					\item gelb $\equiv$ Software
-					\item rot	$\equiv$ Echtzeit-kritisch
-				\end{itemize}
-			\end{block}
-		\end{column}
-	\end{columns}
-
-
-
-\qrcode[height=3in]{https://github.com/OberMarco/OpenSourceSoftwareUML}
-abc
+	
+	
+	\qrcode[height=3in]{https://github.com/OberMarco/OpenSourceSoftwareUML}
+	
 \end{frame}
-	
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Introduction
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\tiny
+
+\begin{thebibliography}{00}
+	\bibliographystyle{IEEEtran}
+	\bibitem{b1}Akkøk, M. An overview of the unified modeling language and diagrammatic modeling language design in software engineering. {\em Information Design Journal}. \textbf{11}, 151-159 (2002), \url{https://www.jbe-platform.com/content/journals/10.1075/idj.11.2.07akk}
+
+\end{thebibliography}
+\end{frame}
+
+
+
+
+
 	
 	
 	
