@@ -25,7 +25,7 @@
 \usepackage{latexsym}
 \usepackage{colortbl}
 \usepackage{listings}
-
+\usepackage{booktabs}
 % Abweichung von Vorlage
 % um Graphen zu plotten
 \usepackage{tikz}
@@ -78,7 +78,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Hier werden die Daten für die erste Folie eingetragen
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\title{ UML Tools}
+\title{Werkzeuge für das Erstellen von UML-Diagrammen}
 \subtitle{Open-Source Software for the Working Scientist \\}
 \institute{Master of Applied Research\\ Hochschule Ansbach\\}
 \author{Marco Obermeier}
@@ -102,6 +102,7 @@
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	%Introduction
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\small
 	\begin{frame}
 		\section{Einführung}
 		\frametitle{Einführung}
@@ -138,7 +139,8 @@
 	%UML Diagramme
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	\begin{frame}
-		\frametitle{UML-Diagramme}
+		\section{Theoretischer Hintergrund}
+		\frametitle{Theoretischer Hintergrund: UML-Diagramme}
 		\begin{columns}
 			\begin{column}{0.50\textwidth}
 				\begin{block}{Was ist UML?}
@@ -192,22 +194,26 @@
 	\begin{frame}
 		\frametitle{Untersuchtes Diagramm des Forschungsprojekts}
 		\begin{columns}
-			\begin{column}{0.65\textwidth}
+			
+			
+			\begin{column}{0.35\textwidth}
+				\begin{block}{Untersuchtes Diagramm}
+					\begin{itemize}
+						\item Komponentendiagramm des Energiemanagementsystem
+						\item Blaue Komponenten sind im Fokus der Forschung
+						\item Gelbe Komponenten sind bereits implementiert
+					\end{itemize}
+					
+				\end{block}
+			\end{column}
+	
+			\begin{column}{0.7\textwidth}
 				\begin{minipage}{\textwidth}
 					\includegraphics[scale=0.25]{../Diagramms/Hand/uml.PNG}
 				\end{minipage}
 			\end{column}
 			
-			\begin{column}{0.35\textwidth}
-				\begin{block}{Untersuchtes Diagramm}
-					\begin{itemize}
-						\item Komponentendiagramm
-						\item Schnittstellen und Zusammenhang zwischen Komponenten
-					\end{itemize}
-					
-				\end{block}
-			\end{column}
-		\end{columns}
+				\end{columns}
 	\end{frame}
 	
 	
@@ -216,36 +222,113 @@
 %UML Diagramme
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}
-	\frametitle{Untersuchungskriterien}
-	\begin{columns}
-		\begin{column}{0.70\textwidth}
-			\begin{minipage}{\textwidth}
-				\includegraphics[scale=0.25]{../Diagramms/Hand/uml.PNG}
-			\end{minipage}
-		\end{column}
+	\frametitle{Use Cases \& Untersuchungskriterien}
+	\begin{block}{Use Cases der Werkezeuge für UML-Diagramme}
+		\begin{itemize}
+			\item Zusammenarbeit mit anderen Wissenschaftlern überwiegend für Konzepte - klare Abgrenzung von detailierten Diagrammen
+			\item Klare und saubere Darstellung in Veröffentlichungen
+		\end{itemize}
 		
-		\begin{column}{0.30\textwidth}
-			\begin{block}{Beispiel Komponentendiagramm}
-				\begin{itemize}
-					\item Logische Komponenten und physische Komponenten 
-					\item Schnittstellen und Zusammenhang zwischen Komponenten
-				\end{itemize}
-				
-			\end{block}
-		\end{column}
-	\end{columns}
+	\end{block}
+	\begin{table}
+		\begin{tabular}{l l}
+			\toprule
+			\textbf{Untersuchungskriterium} & \textbf{Beschreibung der Bewertung}\\
+			\midrule
+			Zeitaufwand für die Erstellung & Zeit in Stunden \\
+			\midrule
+			Zeitaufwand für das Abändern & Zeit in Minuten für das hinzufügen  \\
+			& einer Komponente \\
+			\midrule
+			Allgemeiner visueller Eindruck & Bewertung nach Schulnoten\\
+			\midrule
+			Plattformunabhängigkeit &
+			Lauffähig auf Windows, Linux, MacOS ? \\
+			\midrule
+			Skalierbarkeit der Diagrammgröße & Ist die Übersichtlichkeit bei steigender  \\
+			& Diagrammgröße leicht handlebar? \\
+			\bottomrule
+		\end{tabular}
+	\end{table}
+	
+	
+	
 \end{frame}
 
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%UML Diagramme
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Auswahl der Softwarewerkzeuge}
+
+\begin{block}{Ausgewählte Softwarewerkzeuge:}
+	\begin{itemize}
+		\item Grobe Vorauswahl gemäßg den Use-Cases
+		\item Berücksichtigung der Platformunabhänigkeit
+	\end{itemize}
+\end{block}
+
+
+\begin{columns}
+	\begin{column}{0.333\textwidth}
+		\begin{block}{\textbf{Tikz-UML}}
+			\begin{itemize}
+				\item Textbasiert
+				\item Nicht ausschließlich für UML (Latex Paket)
+			\end{itemize}
+		\end{block}
+	\end{column}
+	
+	\begin{column}{0.333\textwidth}
+		\begin{block}{\textbf{Plant UML}}
+			\begin{itemize}
+				\item Textbasiert
+				\item Ausschließlich für UML
+			\end{itemize}
+		\end{block}
+	\end{column}
+
+\begin{column}{0.333\textwidth}
+	\begin{block}{\textbf{Draw.IO}}
+		\begin{itemize}
+			\item Grafische Nutzeroberfläche
+			\item Nicht ausschließlich für UML (UML Symbolreiter)
+		\end{itemize}
+	\end{block}
+\end{column}
+
+\end{columns}
 	
 	
-	
-	
+\end{frame}
+
+
+
+
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	%Einleitung
+	%Tikz-UML
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}
-	\frametitle{Übersicht und Entwurf}
+	\frametitle{Untersuchungsergebnisse - Tikz-UML}
 	\begin{columns}
+		\begin{column}{0.30\textwidth}
+		\begin{block}{}
+			\begin{itemize}
+				\item Zeitaufwand für die Erstellung: 4 h
+				\item Zeitaufwand für eine Änderung: 10 min
+				\item Allgmeiner visueller Eindruck: 2
+				\item Skalierbarkeit der Diagrammgröße: nein
+				
+			\end{itemize}
+			
+			
+		\end{block}
+	\end{column}
+		
+		
 		\begin{column}{0.70\textwidth}
 			\begin{minipage}{1.0\textwidth}	
 				\resizebox{\columnwidth}{!}{%
@@ -288,55 +371,187 @@
 				}
 			\end{minipage}
 		\end{column}
-		\begin{column}{0.30\textwidth}
-			\begin{block}{Kategeroien der Komponenten}
-				\begin{itemize}
-					\item blau$\equiv$ Hardware
-					\item gelb $\equiv$ Software
-					\item rot	$\equiv$ Echtzeit-kritisch
-				\end{itemize}
-				
-				
-			\end{block}
-		\end{column}
 	\end{columns}
 \end{frame}
 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Plant UML
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Untersuchungsergebnisse - Plant UML}
+	\begin{columns}
+		
+		\begin{column}{0.35\textwidth}
+			\begin{block}{}
+				\begin{itemize}
+					\item Zeitaufwand für die Erstellung: 2 h
+					\item Zeitaufwand für eine Änderung: 5-15 min
+					\item Allgmeiner visueller Eindruck: 4
+					\item Skalierbarkeit der Diagrammgröße: nein
+					
+				\end{itemize}
+				
+			\end{block}
+		\end{column}
+
+		
+		\begin{column}{0.75\textwidth}
+			\begin{minipage}{\textwidth}
+				\includegraphics[scale=0.3]{../Diagramms/PlantUML/overview.PNG}
+			\end{minipage}
+		\end{column}
+		
+	\end{columns}
+\end{frame}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Draw.IO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Untersuchungsergebnisse - Draw.IO}
+	\begin{columns}
+	
+		
+		\begin{column}{0.35\textwidth}
+			\begin{block}{Untersuchtes Diagramm}
+				\begin{block}{}
+					\begin{itemize}
+						\item Zeitaufwand für die Erstellung: 2,5 h
+						\item Zeitaufwand für eine Änderung: 10 min
+						\item Allgmeiner visueller Eindruck: 1
+						\item Skalierbarkeit der Diagrammgröße: ja
+						
+					\end{itemize}
+					
+				\end{block}
+				
+			\end{block}
+		\end{column}
+	
+		\begin{column}{0.75\textwidth}
+		\begin{minipage}{\textwidth}
+			\includegraphics[scale=0.029]{../Diagramms/DrawIO/uml.PNG}
+		\end{minipage}
+	\end{column}
+	\end{columns}
+\end{frame}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Zusammenfassung 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Zusammenfassung}
+	\begin{columns}
+	
+			
+			\begin{column}{0.33\textwidth}
+				\begin{block}{\textbf{Draw.IO}}
+					\begin{itemize}
+						\item [+] Zusätzliche Symbole
+						\item [-] Positionierung Zeitaufwändig
+						\item[+] WebApp und VS-Code
+					\end{itemize}
+				\end{block}
+			\end{column}
+
+		\begin{column}{0.4\textwidth}
+			\begin{block}{\textbf{Plant UML}}
+				\begin{itemize}
+					\item[--] Positionierung problematisch
+					\item[--] Beschriftung nicht verschiebbar
+					\item[+] WebApp und VS-Code
+				\end{itemize}
+			\end{block}
+		\end{column}
+		
+		\begin{column}{0.33\textwidth}
+			\begin{block}{\textbf{Tikz-UML}}
+				\begin{itemize}
+					\item Positierung nach X, Y - Symmetrie
+					\item[+] Integrierbar in Latex-Dokument 
+					\item[--] Beschriftung unverschiebbar
+				\end{itemize}
+			\end{block}
+		\end{column}
+		
+	\end{columns}
+	\begin{table}
+		\begin{tabular}{l l l l l}
+			\toprule
+			\textbf{Untersuchungskriterium} & \textbf{Draw.IO} & \textbf{PlantUML} & \textbf{Tikz-UML}\\
+			\midrule
+			Zeitaufwand für die Erstellung & 2,5 & 2 & 4 \\
+			\midrule
+			Zeitaufwand für das Abändern & 5 & 5-15 & 10  \\
+			\midrule
+			Allgemeiner visueller Eindruck & 1 & 4 & 2 \\
+			\midrule
+			Plattformunabhängigkeit & ja & ja & ja\\
+			\midrule
+			Skalierbarkeit der Diagrammgröße & ja & nein & nein\\
+			\bottomrule
+		\end{tabular}
+	\end{table}
+	
+	
+	
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Empfelungen
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Empfehlungen}
+	\begin{columns}
+		
+		
+		\begin{column}{0.33\textwidth}
+			\begin{block}{\textbf{Draw.IO}}
+				\begin{itemize}
+					\item Für Zusammenarbeit in Projekt gut geeignet
+				\end{itemize}
+			\end{block}
+		\end{column}
+		
+		\begin{column}{0.4\textwidth}
+			\begin{block}{\textbf{Plant UML}}
+				\begin{itemize}
+					\item Für sehr kleine Diagramme in Github
+				\end{itemize}
+			\end{block}
+		\end{column}
+		
+		\begin{column}{0.33\textwidth}
+			\begin{block}{\textbf{Tikz-UML}}
+				\begin{itemize}
+					\item Für Veröffentlichungen
+				\end{itemize}
+			\end{block}
+		\end{column}
+		
+	\end{columns}
+
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Introduction
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}
-	\frametitle{Introduction}
-	
-	
+	\frametitle{Ergebnisse und Quellcode Verfügbar auf Github}
 	
 	\qrcode[height=3in]{https://github.com/OberMarco/OpenSourceSoftwareUML}
 	
 \end{frame}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Introduction
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}
-\tiny
-
-\begin{thebibliography}{00}
-	\bibliographystyle{IEEEtran}
-	\bibitem{b1}Akkøk, M. An overview of the unified modeling language and diagrammatic modeling language design in software engineering. {\em Information Design Journal}. \textbf{11}, 151-159 (2002), \url{https://www.jbe-platform.com/content/journals/10.1075/idj.11.2.07akk}
-
-\end{thebibliography}
-\end{frame}
-
-
-
-
-
-	
-	
-	
 	
 	
 \end{document}
