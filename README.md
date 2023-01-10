@@ -27,6 +27,18 @@ The focus of the diagrams is on the abstract and clear representation of softwar
 
 ## Theoritical Background - UML 
 
+UML stands for Unified Modeling Language. It is a standardized modeling language that is used to create visual representations of software systems and their components. UML diagrams can be used to model the static and dynamic aspects of a system, including its structure, behavior, and interactions. The main purpose of UML is to provide a common language that can be used by software developers, architects, and other stakeholders to communicate effectively about a system under development. UML diagrams can be used for a wide range of purposes, including requirements gathering, analysis, design, implementation, testing, and maintenance.
+
+UML provides several types of diagrams, each with a specific purpose:
+
+- *Class diagrams*: used to represent the static structure of a system, including classes, interfaces, objects, and relationships between them.
+- *Object diagrams*: similar to class diagrams, but they show the instances of classes and their relationships at a specific point in time.
+- *Sequence diagrams*: used to represent the dynamic behavior of a system, showing the interactions and the messages exchanged between objects over time.
+- *State diagrams*: used to represent the different states that an object can be in and the events or actions that cause the object to transition from one state to another.
+- *Use case diagrams*: used to represent the functional requirements of a system, showing the actors that interact with the system and the use cases (scenarios) that the system needs to support.
+  
+UML diagrams provide a visual representation of a system that is easy to understand and communicate, even for non-technical stakeholders.
+
 [An Overview of the unified modeling language](https://doi.org/10.1075/idj.11.2.07akk)
 
 ## Software products
