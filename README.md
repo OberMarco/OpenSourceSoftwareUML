@@ -3,10 +3,10 @@
 
 ## Table of contents
 
-1. [Introduction](#introduction)
-1. [Projectdescription](#Projectdescription)
-1. [Software products](#software-products)
-1. [Investigation criteria](#Investigation-criteria)
+- [Introduction](#introduction)
+- [Projectdescription](#Projectdescription)
+- [Software products](#software-products)
+- [Investigation criteria](#Investigation-criteria)
 
 
 
@@ -50,7 +50,7 @@ The example diagram shows a component diagram of an energy management system. Th
 	
 ## Investigation criteria and Usecases
 
-### Use Cases of the Open Source Tools
+## Use Cases of the Open Source Tools
 The created UML-diagramms are mainly used for the cooperation with other scientists to develop the
 concepts. The diagramms are clearly separated from detailed diagrams, which represents the whole source code. The second use case of the diagramms is the clear and clean representation in publications.
 
@@ -76,25 +76,42 @@ In this project, the following open source software are investigated and compare
   - exclusively for UML
 - [Draw.io App - UML](https://drawio-app.com/uml-diagrams/)
   - graphical user interface
-  - - not exclusively for UML (uml symbol rider)
+  - not exclusively for UML (uml symbol rider)
 
 
-## PlantUML
+## Investigation Results 
+
+### Integrated Latex UML - TikZ-UML
+
+![](Diagramms/Tikz-Latex-UML/uml.PNG)
+
+Investigation criterion | Result
+-------- | -------- 
+Time required for creation   | 4 hours 
+Time required for changing   | 10 minutes 
+General visual impression | 2
+Platform independence | yes
+Scalability of the diagram size | no
 
 
+
+### PlantUML
 ![](Diagramms/PlantUML/overview.png)
+
+Investigation criterion | Result
+-------- | -------- 
+Time required for creation   | 2 hours 
+Time required for changing   | 5-15 minutes 
+General visual impression | 2
+Platform independence | yes
+Scalability of the diagram size | no
 
 Weboberfläche
 umständliche Installation
 keine Leerzeichen
 
 
-## Integrated Latex UML - TikZ-UML
-
-![](Diagramms/Tikz-Latex-UML/uml.PNG)
-kein Datenbanksymbol im komponentendiagramm
-
-## Draw.io APP
+### Draw.io APP
 ![](Diagramms/DrawIO/uml.png)
 Weboberfläche
 VSStudio extension
