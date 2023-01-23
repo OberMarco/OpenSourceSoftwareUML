@@ -2,9 +2,19 @@
 *Author:* Marco Obermeier - Master Student of Applied Science at the [University of Applied Science Ansbach](https://www.hs-ansbach.de/en/home/) 
 
 ## Table of contents
-
-- [Introduction](#introduction)
-- 
+- [Project description of the course *Open-Source Software for the Working Scientist*](#project-description-of-the-course-open-source-software-for-the-working-scientist)
+  - [Table of contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Projectdescription](#projectdescription)
+  - [Theoretical Background - UML](#theoretical-background---uml)
+  - [Example Diagramm of the investigation](#example-diagramm-of-the-investigation)
+  - [Use Cases of the Open Source Tools](#use-cases-of-the-open-source-tools)
+  - [Investigation criteria and Usecases](#investigation-criteria-and-usecases)
+  - [Selection of software tools](#selection-of-software-tools)
+  - [Investigation Results](#investigation-results)
+    - [Integrated Latex UML - TikZ-UML](#integrated-latex-uml---tikz-uml)
+    - [PlantUML](#plantuml)
+    - [Draw.io APP](#drawio-app)
 
 
 
@@ -22,7 +32,7 @@ The created UML diagram will continue to be used in the research work of the Mas
 The focus of the diagrams is on the abstract and clear representation of software and software designs. The diagrams are intended to be used in a scientific context for publications and collaboration. The use of the diagrams is to be distinguished from UML diagrams, which are a detailed view of the implementation of the software.
 
 
-## Theoritical Background - UML
+## Theoretical Background - UML
 
 This chapter is based on a [paper of the overview of UML diagrams](https://doi.org/10.1075/idj.11.2.07akk) and a [website of UML 2.5 diagrams](https://www.uml-diagrams.org/uml-25-diagrams.html).
 
@@ -46,11 +56,13 @@ The example diagram shows a component diagram of an energy management system. Th
 
 ![](Diagramms/Hand/uml.PNG)
 	
-## Investigation criteria and Usecases
 
 ## Use Cases of the Open Source Tools
-The created UML-diagramms are mainly used for the cooperation with other scientists to develop the
-concepts. The diagramms are clearly separated from detailed diagrams, which represents the whole source code. The second use case of the diagramms is the clear and clean representation in publications.
+The UML diagrams created are primarily used for collaboration with other scientists to develop the concepts. The diagrams are clearly distinct from detailed diagrams that depict the entire source code. The second usage of the diagrams is to provide a clear and clean representation in publications.
+
+## Investigation criteria and Usecases
+
+The following table shows the investigation criteria:
 
 Investigation criterion | Description of the criterion
 -------- | -------- 
@@ -80,8 +92,9 @@ In this project, the following open source software are investigated and compare
 ## Investigation Results 
 
 ### Integrated Latex UML - TikZ-UML
-
 ![](Diagramms/Tikz-Latex-UML/uml.PNG)
+
+The following table shows the results of the open source tool Tikz UML:
 
 Investigation criterion | Result
 -------- | -------- 
@@ -96,6 +109,8 @@ Scalability of the diagram size | no
 ### PlantUML
 ![](Diagramms/PlantUML/overview.png)
 
+The following table shows the results of the open source tool PlantUML:
+
 Investigation criterion | Result
 -------- | -------- 
 Time required for creation   | 2 hours 
@@ -104,6 +119,8 @@ General visual impression | 2
 Platform independence | yes
 Scalability of the diagram size | no
 
+
+
 Weboberfläche
 umständliche Installation
 keine Leerzeichen
@@ -111,6 +128,17 @@ keine Leerzeichen
 
 ### Draw.io APP
 ![](Diagramms/DrawIO/uml.png)
+The following table shows the results of the open source tool drawIO:
+
+Investigation criterion | Result
+-------- | -------- 
+Time required for creation   | 2,5 hours 
+Time required for changing   | 10 minutes 
+General visual impression | 1
+Platform independence | yes
+Scalability of the diagram size | yes
+
+
 Weboberfläche
 VSStudio extension
 
