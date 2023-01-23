@@ -92,6 +92,7 @@ In this project, the following open source software are investigated and compare
 ## Investigation Results 
 
 ### Integrated Latex UML - TikZ-UML
+
 ![](Diagramms/Tikz-Latex-UML/uml.PNG)
 
 The following table shows the results of the open source tool Tikz UML:
@@ -105,6 +106,28 @@ Platform independence | yes
 Scalability of the diagram size | no
 
 
+*Time required for creation:*
+The time required to create the diagrams is 4 hours. 
+The duration for creating a diagram using tikz-uml is higher in comparison to the other two software products. This is because the position of each component must be entered using fixed coordinates.
+
+*Time required for changing:*
+The time required to make changes to the diagrams is only 10 minutes.
+Once the diagram is created, it can be modified relatively quickly by using copy and paste, compared to the creation.
+
+*General visual impression:*
+The assessment results in a grade of 2, as the labels of the interfaces cannot be moved.
+
+*Platform independence:*
+The package is generated using LaTeX and LaTeX is platform-independent. With [Overleaf](https://www.overleaf.com/latex/templates/uml-diagrams-with-tikz-uml/ftfzzpmwnjqw) it is possible to use the tool via the web.
+
+*Scalability of the diagram size:*
+The scalability of the size of the diagram is limited to the page setting of LaTeX.
+
+*Additional comments:*
+The greatest benefit of using tikz-uml is that the diagrams are generated directly within the LaTeX document, thus eliminating issues such as font or color consistency that may arise when using other software.
+It took some time to become familiar with the text-based commands, therefore a longer period of adaptation is necessary.
+
+
 
 ### PlantUML
 ![](Diagramms/PlantUML/overview.png)
@@ -115,15 +138,30 @@ Investigation criterion | Result
 -------- | -------- 
 Time required for creation   | 2 hours 
 Time required for changing   | 5-15 minutes 
-General visual impression | 2
+General visual impression | 4
 Platform independence | yes
 Scalability of the diagram size | no
 
 
+*Time required for creation:*
+The time required to create the diagrams is 2 hours. 
+The duration for creating a diagram using tikz-uml is lower in comparison to the other two software products. This is due to the automatic placement of the components. 
 
-Weboberfläche
-umständliche Installation
-keine Leerzeichen
+*Time required for changing:*
+The time required to make changes to the diagrams is about 5-15 minutes.
+Due to the automatic placement of components, it can sometimes be difficult to reproduce the position of a component, which can result in a fluctuation of time needed to add a component between 5 and 15 minutes, depending on whether or not the position is correct immediately.
+
+*General visual impression:*
+The general visual impression of the diagrams is rated with a grade of 4, as the position of the interface labels cannot be moved, there is no square line style and the visual impression is worsened by the automatic positioning.
+
+*Platform independence:*
+PlantUML is platform-independent and also has a [web interface]( http://www.plantuml.com/) .
+
+*Scalability of the diagram size:*
+As the size of the diagram increases, the difficulty in maintaining a clean and organized layout also increases due to the automatic placement of the components.
+
+*Additional comments:*
+The greatest benefit of using tikz-uml is that the diagrams are generated directly within the LaTeX document, thus eliminating issues such as font or color consistency that may arise when using other software.
 
 
 ### Draw.io APP
@@ -139,8 +177,24 @@ Platform independence | yes
 Scalability of the diagram size | yes
 
 
-Weboberfläche
-VSStudio extension
+*Time required for creation:*
+The time required to create the diagrams is 2,5 hours. 
+
+*Time required for changing:*
+The time required to make changes to the diagrams is about 10 minutes. 
+
+*General visual impression:*
+The general visual impression of the diagrams is rated with a grade of 1. 
+This is because the interface label can be moved in comparison to tikz-uml and plantuml and there are no other noticeable drawbacks.
+
+*Platform independence:*
+PlantUML is platform-independent and also has a [web interface]( http://www.plantuml.com/).
+
+*Scalability of the diagram size:*
+Draw.io has an infinite canvas, therefore the size of the diagram is scalable.
+
+*Additional comments:*
+Draw.io is user-friendly due to its graphical user interface.
 
 
 	
