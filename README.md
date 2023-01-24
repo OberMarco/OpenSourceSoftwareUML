@@ -15,7 +15,7 @@
     - [Integrated Latex UML - TikZ-UML](#integrated-latex-uml---tikz-uml)
     - [PlantUML](#plantuml)
     - [Draw.io APP](#drawio-app)
-    - [Summary](#summary)
+  - [Summary](#summary)
 
 
 
@@ -197,7 +197,7 @@ Draw.io has an infinite canvas, therefore the size of the diagram is scalable.
 *Additional comments:*
 Draw.io is user-friendly due to its graphical user interface.
 
-### Summary
+## Summary
 The conclusion of the evaluation is that it is advantageous to use a different programme depending on the application. For good collaboration in a scientific team, Draw.io offers the best advantages, as it is very beginner-friendly. For creating a scientific document, Latex's add-on package tikz-uml is a good choice, as it minimises the disadvantages of different fonts and colour tones. With the right know-how, PlantUML is the tool with which simple diagrams can be drawn most quickly. This is useful for simple documentation on Github.
 
 
