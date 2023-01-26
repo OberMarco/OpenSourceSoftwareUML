@@ -1,8 +1,8 @@
-# Project description of the course *Open-Source Software for the Working Scientist*
+# *Open source software for the working scientist to create uml diagrams*
 *Author:* Marco Obermeier - Master Student of Applied Science at the [University of Applied Science Ansbach](https://www.hs-ansbach.de/en/home/) 
 
 ## Table of contents
-- [Project description of the course *Open-Source Software for the Working Scientist*](#project-description-of-the-course-open-source-software-for-the-working-scientist)
+- [*Open source software for the working scientist to create uml diagrams*](#open-source-software-for-the-working-scientist-to-create-uml-diagrams)
   - [Table of contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Projectdescription](#projectdescription)
@@ -189,7 +189,7 @@ The general visual impression of the diagrams is rated with a grade of 1.
 This is because the interface label can be moved in comparison to tikz-uml and plantuml and there are no other noticeable drawbacks.
 
 *Platform independence:*
-PlantUML is platform-independent and also has a [web interface]( http://www.plantuml.com/).
+Draw.io is platform-independent and also has a [web interface]( https://app.diagrams.net/).
 
 *Scalability of the diagram size:*
 Draw.io has an infinite canvas, therefore the size of the diagram is scalable.

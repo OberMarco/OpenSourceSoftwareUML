@@ -1,0 +1,139 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Beamer-Präsentationsvorlage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[xcolor=dvipsnames]{beamer}
+
+
+%\usepackage{xcolor}
+\usetheme{default}
+\usepackage{qrcode}
+% deutsche Silbentrennung
+\usepackage[ngerman]{babel}
+% Deutsche Umlaute
+\usepackage[utf8]{inputenc}
+% Einbinden von Bildern
+\usepackage{graphicx}
+% Unterstützung von Hyperlinks
+\usepackage{hyperref}
+
+% Mathematische Pakete
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{latexsym}
+\usepackage{colortbl}
+\usepackage{listings}
+
+% Abweichung von Vorlage
+% um Graphen zu plotten
+\usepackage{tikz}
+\usetikzlibrary{shapes, arrows, automata, chains, positioning, shadows, matrix}
+
+
+
+\usepackage{tikzscale}
+\usepackage{tikz-uml}\usepackage{tabularx}
+
+
+\makeatletter
+\newcommand{\trickbeamer}{%
+	\advance\beamer@slideinframe by-1%
+}%
+\makeatother
+
+
+
+\def \variableXYZ{Ueberschrift1}
+\def \variableXYZ{Ueberschrift1}
+\newcommand{\neueFolie}[1]{\frametitle{#1}\section{#1}}
+
+
+\definecolor{rgray}{rgb}{0.95,0.95,0.95}
+\definecolor{darkgreen}{rgb}{0.0,0.5,0.0}
+\lstset{
+	language=[LaTeX]TeX, 
+	captionpos=b, 
+	frame=lines, 
+	basicstyle=\ttfamily, 
+	keywordstyle=\color{blue}, 
+	commentstyle=\color{darkgreen}, 
+	stringstyle=\color{red}, 
+	%numbers=left, 
+	%numberstyle=\tiny, 
+	%numbersep=5pt,
+	breaklines=true, 
+	showstringspaces=false, 
+	emph={double,bool,int,unsigned,char,true,false,void},
+	emphstyle=\color{blue},
+	emph={Assert,Test},
+	emphstyle=\color{red},
+	emph={[2]\using,\#define,\#ifdef,\#endif}, 
+	emphstyle={[2]\color{blue}},
+	backgroundcolor=\color{rgray}
+}
+
+\input{Gestaltung/gestaltung_oth}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Hier werden die Daten für die erste Folie eingetragen
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{ UML Tools}
+\subtitle{Open-Source Software for the Working Scientist \\}
+\institute{Master of Applied Research\\ Hochschule Ansbach\\}
+\author{Marco Obermeier}
+\date{\today}
+%\date{12. Januar 2022}
+
+\begin{document} 
+	\begin{frame}
+		\frametitle{~}
+		\maketitle 
+	\end{frame}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	%Einleitung
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	%\begin{frame}
+	%	\frametitle{Inhaltsverzeichnis}
+	%	\tableofcontents
+	%\end{frame}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	%Einleitung
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Beispiel}
+			\begin{minipage}{1.0\textwidth}	
+				\resizebox{\columnwidth}{!}{%
+					\begin{tikzpicture}
+						
+					
+						\umlbasiccomponent[x=0, y=0,fill=yellow!20]{A} 
+						\umlbasiccomponent[x=4, y=0,fill=yellow!20]{B}
+						\umlbasiccomponent[x=8, y=0,fill=yellow!20]{C}
+						
+			
+						\umlassemblyconnector[interface=interface, anchor1=0,  first arm=1.5cm]{A}{B}
+						\umlassemblyconnector[interface=interface2, anchor1=0,  first arm=1.5cm]{B}{C}
+					
+
+						
+						
+						
+						%\umlVHVassemblyconnector[interface=3D-Beschleunigung, anchor1=0,  first arm=3.5cm]{MySQL}{Datenkollektor}
+						%\umlassemblyconnector[interface=Winkelgeschwidigkeit, anchor1=0]{Flugsteuerung}{Gyrosensor}
+						%\umlHVHassemblyconnector[interface=PWM-Signal, anchor1=-62,  first arm=3.5cm]{Flugsteuerung}{Motoren}
+		
+						%\umlVHVassemblyconnector[interface=Lagewinkel]{Regelung}{Sensorauswertung} 
+						%\umlVHVassemblyconnector[interface=Motordrehzahl]{Motorsteuerung}{Regelung} 
+						
+						
+					\end{tikzpicture}
+				}
+			\end{minipage}
+\end{frame}
+
+
+
+	
+	
+\end{document}

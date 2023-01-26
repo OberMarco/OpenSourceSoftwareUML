@@ -1,0 +1,26 @@
+@startuml
+
+
+
+component A #LightYellow{
+}
+
+component B #LightYellow{
+}
+
+A -left- Interface
+Interface -- B
+
+[C]
+
+C -right- Interface2
+Interface2 -- B
+
+
+
+
+
+
+
+
+@enduml
